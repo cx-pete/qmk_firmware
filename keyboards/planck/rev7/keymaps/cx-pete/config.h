@@ -41,3 +41,9 @@
    - etc.
 */
 // #define MIDI_ADVANCED
+//
+// Input lag reduction 
+#define USB_POLLING_INTERVAL_MS 1
+#define FORCE_NKRO
+#define TAPPING_TERM 7
+#define DEBOUNCE 1
